@@ -1,0 +1,28 @@
+
+==============================================================================================================================================================================
+                                                                              AWS Audit Checklist for Hardening 
+===============================================================================================================================================================================
+      1) Review your AWS account credentials
+      2) Review your IAM users
+      3) Review your IAM groups
+      4) Review your IAM roles
+      5) Remove all unused security accounts
+      6) Review your IAM providers for SAML and OpenID Connect (OIDC)
+      7) Review Your mobile apps
+      8) Review your Amazon EC2 security configuration
+      9) Review AWS policies in other services
+      10) Remove all keys for the root account
+      11) Do not use the root account for any automation or daily task
+      12) Implement 2FA authentication for the root
+      13) Allow only limited permissions to the service accounts
+      14) Whitelist IP addresses and attach a description for each IP.
+      15) Check that there are no unused secure groups.
+      16) Unique gateways for each segment. Audit EC2 
+      17) Verify you have a procedure for granting remote, Internet or VPN access to employees for AWS Console access and remote access to Amazon EC2 networks and systems
+      18) Review AWS Security Group implementation, AWS Direct Connect and Amazon VPN configuration for proper implementation of network segmentation and ACL and firewall setting or AWS services
+      19) Review DDoS layered defense solution running
+      20) Make sure that IAM users, groups, and roles have only the permissions that they need.
+      21) Use the IAM Policy Simulator to test policies that are attached to users or groups.
+      22) Remember that a user's permissions are the result of all applicable policies—user policies, group policies, and resource-based policies (on Amazon S3 buckets, Amazon SQS queues, 
+      23) Review methods for connection to AWS Console, management API, S3, RDS and Amazon EC2 VPN for enforcement of encryption.  Review internal policies and procedures for key management including AWS services and Amazon EC2 instances. 24)Review encryption methods used, if any, to protect PINs at rest – AWS offers a number of key management services such as KMS, CloudHSM and Server Side
+      
